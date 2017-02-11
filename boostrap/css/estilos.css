@@ -1,51 +1,92 @@
 .body-cinema{
-  background-color: grey;
-}
-header nav{
+  background: url(../../imagenes/imagencine01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   width: 100%;
-  height: 9%;
-  background-color: red;
-}
-.container{
-  margin-top: 64px;
-}
-.jumbotron{
-  width: 100%;
-  min-height: 500px;
-  margin-bottom: 0px;
-  border-radius: 0px 0px 0px 0px;
-  background-color: rgb(10,20, 100);
+  height: 100%;
 }
 .titulo-cartelera{
   min-height: 45px;
-  background-color: rgb(155, 250, 250);
+  background: rgba(0, 0, 0, 0.95);
+  margin: 0;
 }
 .movies-row{
   background-color: blue;
   min-height: 350px;
   padding: 0px 15px;
 }
-.movies-column{
-  margin-top: 5px;
-  background-color: rgb(150,120,250);
-  min-height: 330px;
-  border:1px dashed white;
+.logo-img{
+  width: 10%;
+  height: auto;
 }
-@media screen and (max-width:770px) {
-  .right-column{
-    display: none;
-    }
-  .movies-row{
-    min-height: 225px;
-    }
-  .movies-column{
-    min-height: 230px;
-    }
-   .jumbotron{
-     min-height: 350px;
-   }
-  }
+.navbar-inverse{
+  background-color: rgb(205, 240, 250);
+  width: 100%;
+  min-height: 10%;
+  border: none;
 }
-.left-column{
-  border-right: 1px dashed black;
+.jumbotron{
+  background: url(../../imagenes/imagencine02.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+.welcome-title{
+  color:white;
+  border: 1px solid white;
+  height: 100px;
+  margin-right: 10px;
+  padding-top: 3%;
+}
+.jumbotron-img{
+  margin-top: 20px;
+  width: 20%;
+  height: auto;
+  border: 2px solid white;
+}
+.jumbotron-text{
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+.redes-sociales{
+  margin-top: 20px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+.titulo-text{
+  font-size: 18px;
+  color: white;
+  padding-top: 10px;
+}
+.movie-title{
+  color: yellow;
+  font-size: 16px;
+  text-align: center;
+  font-style: oblique;
+}
+.img-movie{
+  height: 260px;
+  width: 170px;
+  padding: 6px;
+  margin-top: 22px;
+}
+.movie-title2{
+  color: black;
+  font-size: 16px;
+}
+.barra-derecha{
+  border-right: 3px solid black;
+}
+.welcome-title2{
+  color: black;
+  font-size: 20px;
 }
